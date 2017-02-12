@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4A5D8F1E5073EC007BDDED /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC4A5D8E1E5073EC007BDDED /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FC4A5D931E5073ED007BDDED /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D921E5073EC007BDDED /* Stickers.xcstickers */; };
+		FC4A5D941E5073ED007BDDED /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = FC4A5D921E5073EC007BDDED /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4A5D901E5073EC007BDDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4A5D841E5073EC007BDDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4A5D8D1E5073EC007BDDED;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC4A5D9A1E5073ED007BDDED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FC4A5D8F1E5073EC007BDDED /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC4A5D8A1E5073EC007BDDED /* iMessage Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMessage Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A5D8E1E5073EC007BDDED /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A5D921E5073EC007BDDED /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FC4A5D831E5073EC007BDDED = {
+			isa = PBXGroup;
+			children = (
+				FC4A5D921E5073EC007BDDED /* Stickers.xcstickers */,
+				FC4A5D8B1E5073EC007BDDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4A5D8B1E5073EC007BDDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A5D8A1E5073EC007BDDED /* iMessage Stickers.app */,
+				FC4A5D8E1E5073EC007BDDED /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4A5D891E5073EC007BDDED /* iMessage Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A5D9B1E5073ED007BDDED /* Build configuration list for PBXNativeTarget "iMessage Stickers" */;
+			buildPhases = (
+				FC4A5D881E5073EC007BDDED /* Resources */,
+				FC4A5D9A1E5073ED007BDDED /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4A5D911E5073EC007BDDED /* PBXTargetDependency */,
+			);
+			name = "iMessage Stickers";
+			productName = "iMessage Stickers";
+			productReference = FC4A5D8A1E5073EC007BDDED /* iMessage Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		FC4A5D8D1E5073EC007BDDED /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A5D971E5073ED007BDDED /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				FC4A5D8C1E5073EC007BDDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = FC4A5D8E1E5073EC007BDDED /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4A5D841E5073EC007BDDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Atıl Samancıoğlu";
+				TargetAttributes = {
+					FC4A5D891E5073EC007BDDED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7SH627DBA4;
+						ProvisioningStyle = Automatic;
+					};
+					FC4A5D8D1E5073EC007BDDED = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7SH627DBA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC4A5D871E5073EC007BDDED /* Build configuration list for PBXProject "iMessage Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC4A5D831E5073EC007BDDED;
+			productRefGroup = FC4A5D8B1E5073EC007BDDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4A5D891E5073EC007BDDED /* iMessage Stickers */,
+				FC4A5D8D1E5073EC007BDDED /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4A5D881E5073EC007BDDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A5D941E5073ED007BDDED /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A5D8C1E5073EC007BDDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A5D931E5073ED007BDDED /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4A5D911E5073EC007BDDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4A5D8D1E5073EC007BDDED /* StickerPackExtension */;
+			targetProxy = FC4A5D901E5073EC007BDDED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC4A5D951E5073ED007BDDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4A5D961E5073ED007BDDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4A5D981E5073ED007BDDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 7SH627DBA4;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.iMessage-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC4A5D991E5073ED007BDDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 7SH627DBA4;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.iMessage-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC4A5D9C1E5073ED007BDDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 7SH627DBA4;
+				INFOPLIST_FILE = "iMessage Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.iMessage-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC4A5D9D1E5073ED007BDDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 7SH627DBA4;
+				INFOPLIST_FILE = "iMessage Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.iMessage-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4A5D871E5073EC007BDDED /* Build configuration list for PBXProject "iMessage Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A5D951E5073ED007BDDED /* Debug */,
+				FC4A5D961E5073ED007BDDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A5D971E5073ED007BDDED /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A5D981E5073ED007BDDED /* Debug */,
+				FC4A5D991E5073ED007BDDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC4A5D9B1E5073ED007BDDED /* Build configuration list for PBXNativeTarget "iMessage Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A5D9C1E5073ED007BDDED /* Debug */,
+				FC4A5D9D1E5073ED007BDDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4A5D841E5073EC007BDDED /* Project object */;
+}
