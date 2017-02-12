@@ -1,4 +1,21 @@
 {
+  "stickers" : [
+    {
+      "filename" : "001-Bulbasaur-icon.sticker"
+    },
+    {
+      "filename" : "006-Charizard-icon.sticker"
+    },
+    {
+      "filename" : "007-Squirtle-icon.sticker"
+    },
+    {
+      "filename" : "025-Pikachu-icon.sticker"
+    },
+    {
+      "filename" : "036-Clefable-icon.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
